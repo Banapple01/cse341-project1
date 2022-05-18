@@ -1,0 +1,66 @@
+//LOCALHOST
+###
+GET http://localhost:8080/todos/
+###
+GET http://localhost:8080/todos/628539a702cebfecefadbf22
+###
+GET http://localhost:8080/todos/62681217e481590b6bb0a8cc
+###
+GET http://localhost:8080/todos/6268127ee481590b6bb0a8cd
+###
+GET http://localhost:8080/
+###
+GET https://cse341-byuispring2022.herokuapp.com/todos/
+###
+GET https://cse341-byuispring2022.herokuapp.com/todos/62680fd3e481590b6bb0a8cb
+###
+GET https://cse341-byuispring2022.herokuapp.com/todos/62681217e481590b6bb0a8cc
+###
+GET https://cse341-byuispring2022.herokuapp.com/todos/6268127ee481590b6bb0a8cd
+###
+POST https://cse341-byuispring2022.herokuapp.com/todos/ HTTP/1.1 
+content-type: application/json
+
+{
+    "firstName": "Joey",
+    "lastName": "Hasslehoff",
+    "email": "hassle@test.com",
+    "favoriteColor": "Green",
+    "birthday": "10/22/73"
+}
+###
+POST http://localhost:8080/todos/ HTTP/1.1 
+content-type: application/json
+
+{
+    "todoTitle": "second task",
+    "todoDesc": "the task that is second"
+}
+###
+PUT https://cse341-byuispring2022.herokuapp.com/todos/6276e5d0680a9f5a7686dee4 HTTP/1.1 
+content-type: application/json
+
+{
+    "firstName": "Joey",
+    "lastName": "Hasslehoffy",
+    "email": "hassle@test.com",
+    "favoriteColor": "Greeny",
+    "birthday": "10/22/73"
+}
+###
+PUT http://localhost:8080/todos/6276d64ebca3d9e74150cffb HTTP/1.1 
+content-type: application/json
+
+{
+    "firstName": "Joey",
+    "lastName": "Hasslehoffy",
+    "email": "hassle@test.com",
+    "favoriteColor": "Greeny",
+    "birthday": "10/22/73"
+}
+
+###
+DELETE https://cse341-byuispring2022.herokuapp.com/todos/6276e5d0680a9f5a7686dee4 HTTP/1.1 
+
+###
+DELETE  http://localhost:8080/todos/628538b4d814a213e2e1d06f HTTP/1.1 
