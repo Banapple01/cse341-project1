@@ -2,10 +2,10 @@
   "swagger": "2.0",
   "info": {
     "title": "My API",
-    "description": "Temples",
+    "description": "Todos",
     "version": "1.0.0"
   },
-  "host": "localhost:8080",
+  "host": "cse341todos.herokuapp.com",
   "basePath": "/",
   "schemes": [
     "https"
