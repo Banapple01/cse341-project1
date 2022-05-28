@@ -48,15 +48,12 @@ content-type: application/json
     "birthday": "10/22/73"
 }
 ###
-PUT http://localhost:8080/todos/6276d64ebca3d9e74150cffb HTTP/1.1 
+PUT http://localhost:8080/todos/62853933d814a213e2e1d070 HTTP/1.1 
 content-type: application/json
 
 {
-    "firstName": "Joey",
-    "lastName": "Hasslehoffy",
-    "email": "hassle@test.com",
-    "favoriteColor": "Greeny",
-    "birthday": "10/22/73"
+    "todoTitle": "first official task",
+    "todoDesc": "the task that is firstly official"
 }
 
 ###

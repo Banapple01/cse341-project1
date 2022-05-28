@@ -5,7 +5,7 @@
     "description": "Todos",
     "version": "1.0.0"
   },
-  "host": "cse341todos.herokuapp.com",
+  "host": "localhost:8080",
   "basePath": "/",
   "schemes": [
     "https"
@@ -77,6 +77,9 @@
         "responses": {
           "200": {
             "description": "OK"
+          },
+          "500": {
+            "description": "Internal Server Error"
           }
         }
       },
